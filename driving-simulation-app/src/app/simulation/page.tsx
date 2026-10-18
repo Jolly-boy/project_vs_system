@@ -1,4 +1,6 @@
 // Inside src/app/simulation/page.tsx or a wrapper component
+'use client';
+
 import dynamic from 'next/dynamic';
 
 const PhaserGame = dynamic(
